@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ProximaNova', sans-serif;
+    src: url(fonts/Proxima-Nova-Extrabold.otf) format('opentype');
+}
+
+.titulo-por-que {
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.por-que-premium {
+    padding: 2em 60px;
+    margin: 0 100px;
+}
+
+.tabla-elementos {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elemento {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 1em;
+    border: 8px solid black;
+}
+
+.icono-elemento {
+    height: 4em;
+    width: 4em;
+}
+
+
+.premium-footer {
+    font-family: 'ProximaNova', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(122, 122, 122);
+    padding: 48px;
+}
+
+dt {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+
+}
+
+h2 {
+    font-family: 'ProximaNova', sans-serif;
+}
