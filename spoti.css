@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav {
+    position: relative;
+    width: 100%;
+    
+}
+
+.banner {
+    background-color: black;
+    display: flex;
+    justify-content: first baseline;
+    padding-top: 3vh;
+    width: 100%;
+}
+
+#log {
+    font-size: 30px;
+    padding-right: 40vw;
+    padding-left: 15vw;
+}
+
+.options {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 100%;
+}
+
+.options :hover {
+        color: rgb(68, 213, 83);
+}
+
+.sale {
+    background-color:#1d75de;
+    color: white;
+    display:flow-root;
+    justify-content: center;
+    height: 40vh;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.sale #boton1 {
+    background-color: black;
+    border-radius: 45%;
+    color: white;
+    padding: 1%;
+}
+
+.sale #boton2 {
+    background-color: #1d75de;
+    border: 3px solid white;
+    border-radius: 45%;
+    color: white;
+    padding: 1%;
+    
+
+}
+
+#boton1 {
+    padding: 2% 5%;
+    margin: 2% 1%;
+}
+
+#boton2 {
+    margin: 2% 1%;
+}
+
+#boton1:hover   {
+    color: #dfe6ee;
+    padding: 1.2%;
+    margin: 2% 1%;
+}
+
+#boton2:hover   {
+    color:#dfe6ee;
+    margin: 2% 1%;
+    outline-width: 3rem;
+    width: 6%;    
+    }
+
+#size {
+    color: white;
+    font-size: 11px;
+    padding-top: 4%;
+}
+.size {
+    color: white;
+    font-size: 11px;
+    padding-top: 4%;
+}
+
+.texto { 
+    background-color: #1d75de;
+    color: white;
+    font-size: larger;
+}
